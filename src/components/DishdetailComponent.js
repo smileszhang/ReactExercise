@@ -43,14 +43,16 @@ class DishDetail extends Component {
         }      
         else
             return(
+                <div class='container'>
                 <div className='row'>
-                    <div  className="col-12 col-md-5 m-1">
+                    <div className="col-12 col-md-5 m-1">
                         {this.renderDish(dish)}
                     </div>
                     <div  className="col-12 col-md-5 m-1">
                         <h4>Comments</h4>
                         {this.renderComments(dish.comments)}
                     </div>
+                </div>
                 </div>
             );
 }
@@ -59,5 +61,4 @@ class DishDetail extends Component {
 
 
 export default DishDetail;
-//{this.renderComments(dish.comments)}
 
