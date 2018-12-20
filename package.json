@@ -1,5 +1,5 @@
 {
-  "name": "confusion",
+  "name": "c",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,5 +29,18 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smileszhang/ReactExercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smileszhang/ReactExercise/issues"
+  },
+  "homepage": "https://github.com/smileszhang/ReactExercise#readme"
 }
